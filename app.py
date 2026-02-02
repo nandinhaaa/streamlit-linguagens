@@ -26,6 +26,7 @@ dados = fetch_data()
 
 # Configuração da interface Streamlit
 st.title("Análise das Principais Linguagens de Programação")
+st.info("👈 Selecione uma ou mais opções no menu lateral para visualizar os dados e gráficos.")
 st.sidebar.header("Opções")
 
 # Opções de exibição
