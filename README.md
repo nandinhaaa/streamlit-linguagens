@@ -3,6 +3,9 @@
 
 Este projeto é uma aplicação interativa desenvolvida com **Streamlit** que realiza a raspagem de dados das linguagens de programação mais populares a partir do site [Statistics Times](https://statisticstimes.com/tech/top-computer-languages.php), e apresenta os resultados de forma visual através de **tabelas e gráficos**.
 
+## Projeto 
+* acesse aqui: https://appe-linguagens-i5kgff2z6ym3b6rqq6ntmm.streamlit.app/
+
 ## 🚀 Funcionalidades
 
 * 🔍 **Raspagem de dados** em tempo real usando `requests` + `BeautifulSoup`.
@@ -48,7 +51,7 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 ```
 
-*(Caso o `requirements.txt` não esteja presente, instale manualmente:)*
+*As dependências do projeto estão listadas no arquivo `requirements.txt`.*
 
 ```bash
 pip install requests beautifulsoup4 pandas matplotlib streamlit
